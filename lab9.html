@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Task 9</title>
+    <meta charset ="utf-8">
+    <meta name="author" content="Вежнина Надежда 932201">
+    <link rel="stylesheet" type="text/css" href="Styles9.css">
+</head>
+<body>
+	<table>
+		<tr><td id="view" colspan=5><span id="display"></span><span id="display-current">0</span></td></tr>
+		<tr><td><button onclick="AddNumber(7)">7</button></td><td><button onclick="AddNumber(8)">8</button></td><td><button onclick="AddNumber(9)">9</button></td><td><button onclick="Operation('/')">/</button></td><td><button onclick="Clear()">C</button></td></tr>
+		<tr><td><button onclick="AddNumber(4)">4</button></td><td><button onclick="AddNumber(5)">5</button></td><td><button onclick="AddNumber(6)">6</button></td><td><button onclick="Operation('*')">*</button></td><td><button onclick="Back()">&lt;-</button></td></tr>
+		<tr><td><button onclick="AddNumber(1)">1</button></td><td><button onclick="AddNumber(2)">2</button></td><td><button onclick="AddNumber(3)">3</button></td><td><button onclick="Operation('-')">-</button></td><td rowspan=2><button onclick="Solve()" id="bs">=</button></td></tr>
+		<tr><td colspan=2><button onclick="AddNumber(0)" id="b0">0</button></td><td><button onclick="Decimal()">.</button></td><td><button onclick="Operation('+')">+</button></td></tr>
+	</table>
+	<script src = "script9.js"></script>
+</body>
+</html>
